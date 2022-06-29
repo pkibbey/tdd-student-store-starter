@@ -1,11 +1,16 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import App from "./components/App/App"
-import "./globals.css"
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import { ThemeProvider } from 'theme-ui';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
+import theme from './theme';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
-)
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <ThemeProvider theme={theme}>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </ThemeProvider>,
+);

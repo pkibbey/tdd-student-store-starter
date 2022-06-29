@@ -31,8 +31,8 @@
       "id": 4,
       "name": "Coconut Water",
       "category": "food",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Coconut_Drink%2C_Pangandaran.JPG/1920px-Coconut_Drink%2C_Pangandaran.JPG",
-      "source": "https://commons.wikimedia.org/wiki/Category:Coconut_water#/media/File:Coconut_Drink,_Pangandaran.JPG",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/HK_Soft_drink_pre-packed_canned_Meko_100%25_pure_coconut_water_green_July_2017_IX1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:HK_Soft_drink_pre-packed_canned_Meko_100%25_pure_coconut_water_green_July_2017_IX1.jpg",
       "description": "Somehow incredibly hydrating, while also not really being water.",
       "price": 3.25
     },
@@ -40,7 +40,7 @@
       "id": 5,
       "name": "Fruit Medley",
       "category": "food",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Fruits.png/640px-Fruits.png",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Fruits.png",
       "source": "https://commons.wikimedia.org/wiki/File:Fruits.png",
       "description": "More fruit than you know what to do with!",
       "price": 7.5
@@ -49,7 +49,7 @@
       "id": 6,
       "name": "Bar Code Shirts",
       "category": "clothing",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Barcode_wikipedia_shirt.svg/640px-Barcode_wikipedia_shirt.svg.png",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Barcode_wikipedia_shirt.svg",
       "source": "https://commons.wikimedia.org/wiki/File:Barcode_wikipedia_shirt.svg",
       "description": "So you can scan yourself in the checkout aisle.",
       "price": 19.99
@@ -67,7 +67,7 @@
       "id": 8,
       "name": "Knitted Beanie",
       "category": "clothing",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Blue_knit-cap_beanie_by_RobertLender.jpeg/640px-Blue_knit-cap_beanie_by_RobertLender.jpeg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Blue_knit-cap_beanie_by_RobertLender.jpeg",
       "source": "https://commons.wikimedia.org/wiki/File:Blue_knit-cap_beanie_by_RobertLender.jpeg",
       "description": "Keeps your head absurdly warm while the rest of your body freezes.",
       "price": 19.99
@@ -112,7 +112,7 @@
       "id": 13,
       "name": "Copper Bracelet",
       "category": "accessories",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Copper_bracelet_04.jpg/640px-Copper_bracelet_04.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Copper_bracelet_04.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Copper_bracelet_04.jpg",
       "description": "Compliment this accessory with a batter and some wire and you have yourself a portable charger right on your wrist!",
       "price": 70
@@ -130,7 +130,7 @@
       "id": 15,
       "name": "Mouse from 1998",
       "category": "tech",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Mouse_Microsoft_PS2.jpg/640px-Mouse_Microsoft_PS2.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Mouse_Microsoft_PS2.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Mouse_Microsoft_PS2.jpg",
       "description": "Check out this fancy Microsoft mouse that was in use right before the dot com bubble crash of the 2000s! It's a collectors' item that still works great. Brings back that 'on the verge of the world collapsing' feeling.",
       "price": 19.98
@@ -145,5 +145,611 @@
       "price": 999.99
     }
   ],
-  "purchases": []
+  "purchases": [
+    {
+      "id": "eacc6a51-e4bc-41fd-ad6f-990a96db54ce",
+      "name": "A. Customer",
+      "email": "customer-email@gmail.com",
+      "total": 5.9595,
+      "receipt": {
+        "userInfo": {
+          "name": "A. Customer",
+          "email": "customer-email@gmail.com"
+        },
+        "lines": [
+          "Showing receipt for A. Customer available at customer-email@gmail.com:",
+          "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99.",
+          "1 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $1.50.",
+          "1 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $2.99.",
+          "Before taxes, the subtotal was $5.48",
+          "After taxes and fees were applied, the total comes out to $5.96"
+        ],
+        "productRows": [
+          {
+            "id": 1,
+            "name": "Rice Krispies",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/RKTsquares.jpg",
+            "source": "https://en.wikipedia.org/wiki/Rice_Krispies_Treats",
+            "description": "Delicious corn-based rice grains melted together with marshmallows into a square-like shape.",
+            "price": 0.99,
+            "quantity": 1,
+            "totalPrice": 0.99
+          },
+          {
+            "id": 2,
+            "name": "Flamin Hot Cheetos",
+            "category": "food",
+            "image": "https://static.openfoodfacts.org/images/products/896/400/009/0879/front_en.14.full.jpg",
+            "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+            "description": "No one knows what's in the powder that covers these snacks, but wow is it amazing!",
+            "price": 1.5,
+            "quantity": 1,
+            "totalPrice": 1.5
+          },
+          {
+            "id": 3,
+            "name": "Cinnamon Rolls",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+            "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+            "description": "Basically just cake for breakfast, but who's complaining?",
+            "price": 2.99,
+            "quantity": 1,
+            "totalPrice": 2.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "c5774ed3-8613-4dd7-bfb6-821d91f4589c",
+      "name": "A. Customer",
+      "email": "customer-email@gmail.com",
+      "total": 36.137625,
+      "receipt": {
+        "userInfo": {
+          "name": "A. Customer",
+          "email": "customer-email@gmail.com"
+        },
+        "lines": [
+          "Showing receipt for A. Customer available at customer-email@gmail.com:",
+          "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99.",
+          "1 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $1.50.",
+          "1 total Coconut Water purchased at a cost of $3.25 for a total cost of $3.25.",
+          "1 total Fruit Medley purchased at a cost of $7.50 for a total cost of $7.50.",
+          "1 total Bar Code Shirts purchased at a cost of $19.99 for a total cost of $19.99.",
+          "Before taxes, the subtotal was $33.23",
+          "After taxes and fees were applied, the total comes out to $36.14"
+        ],
+        "productRows": [
+          {
+            "id": 1,
+            "name": "Rice Krispies",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/RKTsquares.jpg",
+            "source": "https://en.wikipedia.org/wiki/Rice_Krispies_Treats",
+            "description": "Delicious corn-based rice grains melted together with marshmallows into a square-like shape.",
+            "price": 0.99,
+            "quantity": 1,
+            "totalPrice": 0.99
+          },
+          {
+            "id": 2,
+            "name": "Flamin Hot Cheetos",
+            "category": "food",
+            "image": "https://static.openfoodfacts.org/images/products/896/400/009/0879/front_en.14.full.jpg",
+            "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+            "description": "No one knows what's in the powder that covers these snacks, but wow is it amazing!",
+            "price": 1.5,
+            "quantity": 1,
+            "totalPrice": 1.5
+          },
+          {
+            "id": 4,
+            "name": "Coconut Water",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/HK_Soft_drink_pre-packed_canned_Meko_100%25_pure_coconut_water_green_July_2017_IX1.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:HK_Soft_drink_pre-packed_canned_Meko_100%25_pure_coconut_water_green_July_2017_IX1.jpg",
+            "description": "Somehow incredibly hydrating, while also not really being water.",
+            "price": 3.25,
+            "quantity": 1,
+            "totalPrice": 3.25
+          },
+          {
+            "id": 5,
+            "name": "Fruit Medley",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Fruits.png",
+            "source": "https://commons.wikimedia.org/wiki/File:Fruits.png",
+            "description": "More fruit than you know what to do with!",
+            "price": 7.5,
+            "quantity": 1,
+            "totalPrice": 7.5
+          },
+          {
+            "id": 6,
+            "name": "Bar Code Shirts",
+            "category": "clothing",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Barcode_wikipedia_shirt.svg",
+            "source": "https://commons.wikimedia.org/wiki/File:Barcode_wikipedia_shirt.svg",
+            "description": "So you can scan yourself in the checkout aisle.",
+            "price": 19.99,
+            "quantity": 1,
+            "totalPrice": 19.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "5f6f5f2f-c58a-4026-af23-7e8570193049",
+      "name": "Another Customer",
+      "email": "new-email@gmail.com",
+      "total": 3110.18475,
+      "receipt": {
+        "userInfo": {
+          "name": "Another Customer",
+          "email": "new-email@gmail.com"
+        },
+        "lines": [
+          "Showing receipt for Another Customer available at new-email@gmail.com:",
+          "3 total Knitted Beanie purchased at a cost of $19.99 for a total cost of $59.97.",
+          "5 total Matching Rings purchased at a cost of $200.00 for a total cost of $1,000.00.",
+          "2 total Apple Watch purchased at a cost of $399.99 for a total cost of $799.98.",
+          "1 total Smart Glasses purchased at a cost of $999.99 for a total cost of $999.99.",
+          "Before taxes, the subtotal was $2,859.94",
+          "After taxes and fees were applied, the total comes out to $3,110.18"
+        ],
+        "productRows": [
+          {
+            "id": 8,
+            "name": "Knitted Beanie",
+            "category": "clothing",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Blue_knit-cap_beanie_by_RobertLender.jpeg",
+            "source": "https://commons.wikimedia.org/wiki/File:Blue_knit-cap_beanie_by_RobertLender.jpeg",
+            "description": "Keeps your head absurdly warm while the rest of your body freezes.",
+            "price": 19.99,
+            "quantity": 3,
+            "totalPrice": 59.97
+          },
+          {
+            "id": 11,
+            "name": "Matching Rings",
+            "category": "accessories",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Wedding_rings.jpg/800px-Wedding_rings.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Wedding_rings.jpg",
+            "description": "Ball out and get one for each finger!",
+            "price": 200,
+            "quantity": 5,
+            "totalPrice": 1000
+          },
+          {
+            "id": 12,
+            "name": "Apple Watch",
+            "category": "accessories",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Apple_Watch.jpg/800px-Apple_Watch.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Apple_Watch.jpg",
+            "description": "Why check your phone all the time when you can check your watch all the time?",
+            "price": 399.99,
+            "quantity": 2,
+            "totalPrice": 799.98
+          },
+          {
+            "id": 16,
+            "name": "Smart Glasses",
+            "category": "tech",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Google_Glass_photo.JPG/330px-Google_Glass_photo.JPG",
+            "source": "https://en.wikipedia.org/wiki/Google_Glass",
+            "description": "Have the internet mounted to your face, and get the added benefit of looking silly all the time!",
+            "price": 999.99,
+            "quantity": 1,
+            "totalPrice": 999.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "af38baa6-7401-4b26-b6de-640d9b5ec69d",
+      "name": "A. Customer",
+      "email": "customer-email@gmail.com",
+      "total": 529.2753749999999,
+      "receipt": {
+        "userInfo": {
+          "name": "A. Customer",
+          "email": "customer-email@gmail.com"
+        },
+        "lines": [
+          "Showing receipt for A. Customer available at customer-email@gmail.com:",
+          "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99.",
+          "8 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $12.00.",
+          "1 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $2.99.",
+          "1 total Coconut Water purchased at a cost of $3.25 for a total cost of $3.25.",
+          "1 total Fruit Medley purchased at a cost of $7.50 for a total cost of $7.50.",
+          "1 total Bar Code Shirts purchased at a cost of $19.99 for a total cost of $19.99.",
+          "1 total Striped Socks purchased at a cost of $4.99 for a total cost of $4.99.",
+          "1 total Knitted Beanie purchased at a cost of $19.99 for a total cost of $19.99.",
+          "1 total Alpaca Wool Scarf purchased at a cost of $34.99 for a total cost of $34.99.",
+          "1 total Matching Rings purchased at a cost of $200.00 for a total cost of $200.00.",
+          "1 total Copper Bracelet purchased at a cost of $70.00 for a total cost of $70.00.",
+          "1 total Keyboard purchased at a cost of $110.00 for a total cost of $110.00.",
+          "Before taxes, the subtotal was $486.69",
+          "After taxes and fees were applied, the total comes out to $529.28"
+        ],
+        "productRows": [
+          {
+            "id": 1,
+            "name": "Rice Krispies",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/RKTsquares.jpg",
+            "source": "https://en.wikipedia.org/wiki/Rice_Krispies_Treats",
+            "description": "Delicious corn-based rice grains melted together with marshmallows into a square-like shape.",
+            "price": 0.99,
+            "quantity": 1,
+            "totalPrice": 0.99
+          },
+          {
+            "id": 2,
+            "name": "Flamin Hot Cheetos",
+            "category": "food",
+            "image": "https://static.openfoodfacts.org/images/products/896/400/009/0879/front_en.14.full.jpg",
+            "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+            "description": "No one knows what's in the powder that covers these snacks, but wow is it amazing!",
+            "price": 1.5,
+            "quantity": 8,
+            "totalPrice": 12
+          },
+          {
+            "id": 3,
+            "name": "Cinnamon Rolls",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+            "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+            "description": "Basically just cake for breakfast, but who's complaining?",
+            "price": 2.99,
+            "quantity": 1,
+            "totalPrice": 2.99
+          },
+          {
+            "id": 4,
+            "name": "Coconut Water",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/HK_Soft_drink_pre-packed_canned_Meko_100%25_pure_coconut_water_green_July_2017_IX1.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:HK_Soft_drink_pre-packed_canned_Meko_100%25_pure_coconut_water_green_July_2017_IX1.jpg",
+            "description": "Somehow incredibly hydrating, while also not really being water.",
+            "price": 3.25,
+            "quantity": 1,
+            "totalPrice": 3.25
+          },
+          {
+            "id": 5,
+            "name": "Fruit Medley",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Fruits.png",
+            "source": "https://commons.wikimedia.org/wiki/File:Fruits.png",
+            "description": "More fruit than you know what to do with!",
+            "price": 7.5,
+            "quantity": 1,
+            "totalPrice": 7.5
+          },
+          {
+            "id": 6,
+            "name": "Bar Code Shirts",
+            "category": "clothing",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Barcode_wikipedia_shirt.svg",
+            "source": "https://commons.wikimedia.org/wiki/File:Barcode_wikipedia_shirt.svg",
+            "description": "So you can scan yourself in the checkout aisle.",
+            "price": 19.99,
+            "quantity": 1,
+            "totalPrice": 19.99
+          },
+          {
+            "id": 7,
+            "name": "Striped Socks",
+            "category": "clothing",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bulk_tube_socks.png",
+            "source": "https://commons.wikimedia.org/wiki/File:Bulk_tube_socks.png",
+            "description": "Because the dryer ate most of your socks and it never hurts to have another clean pair.",
+            "price": 4.99,
+            "quantity": 1,
+            "totalPrice": 4.99
+          },
+          {
+            "id": 8,
+            "name": "Knitted Beanie",
+            "category": "clothing",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Blue_knit-cap_beanie_by_RobertLender.jpeg",
+            "source": "https://commons.wikimedia.org/wiki/File:Blue_knit-cap_beanie_by_RobertLender.jpeg",
+            "description": "Keeps your head absurdly warm while the rest of your body freezes.",
+            "price": 19.99,
+            "quantity": 1,
+            "totalPrice": 19.99
+          },
+          {
+            "id": 10,
+            "name": "Alpaca Wool Scarf",
+            "category": "clothing",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Alpaca_wool_scarf.JPG/800px-Alpaca_wool_scarf.JPG",
+            "source": "https://commons.wikimedia.org/wiki/File:Alpaca_wool_scarf.JPG",
+            "description": "Legends say that the Alpaca knitted this scarf from its own fur.",
+            "price": 34.99,
+            "quantity": 1,
+            "totalPrice": 34.99
+          },
+          {
+            "id": 11,
+            "name": "Matching Rings",
+            "category": "accessories",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Wedding_rings.jpg/800px-Wedding_rings.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Wedding_rings.jpg",
+            "description": "Ball out and get one for each finger!",
+            "price": 200,
+            "quantity": 1,
+            "totalPrice": 200
+          },
+          {
+            "id": 13,
+            "name": "Copper Bracelet",
+            "category": "accessories",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Copper_bracelet_04.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Copper_bracelet_04.jpg",
+            "description": "Compliment this accessory with a batter and some wire and you have yourself a portable charger right on your wrist!",
+            "price": 70,
+            "quantity": 1,
+            "totalPrice": 70
+          },
+          {
+            "id": 14,
+            "name": "Keyboard",
+            "category": "tech",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Apple-wireless-keyboard.jpg/800px-Apple-wireless-keyboard.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Apple-wireless-keyboard.jpg",
+            "description": "A wireless keyboard for your computer! Because who doesn't like walking around while they type up an essay.",
+            "price": 110,
+            "quantity": 1,
+            "totalPrice": 110
+          }
+        ]
+      }
+    },
+    {
+      "id": "ac9ee300-c5f1-4c37-8ca7-853b8a16d67b",
+      "name": "A. Customer",
+      "email": "customer-email@gmail.com",
+      "total": 1.076625,
+      "receipt": {
+        "userInfo": {
+          "name": "A. Customer",
+          "email": "customer-email@gmail.com"
+        },
+        "lines": [
+          "Showing receipt for A. Customer available at customer-email@gmail.com:",
+          "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99.",
+          "Before taxes, the subtotal was $0.99",
+          "After taxes and fees were applied, the total comes out to $1.08"
+        ],
+        "productRows": [
+          {
+            "id": 1,
+            "name": "Rice Krispies",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/RKTsquares.jpg",
+            "source": "https://en.wikipedia.org/wiki/Rice_Krispies_Treats",
+            "description": "Delicious corn-based rice grains melted together with marshmallows into a square-like shape.",
+            "price": 0.99,
+            "quantity": 1,
+            "totalPrice": 0.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "68a4f025-7a52-484c-8e75-137774e644bb",
+      "name": "A. Customer",
+      "email": "customer-email@gmail.com",
+      "total": 2.707875,
+      "receipt": {
+        "userInfo": {
+          "name": "A. Customer",
+          "email": "customer-email@gmail.com"
+        },
+        "lines": [
+          "Showing receipt for A. Customer available at customer-email@gmail.com:",
+          "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99.",
+          "1 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $1.50.",
+          "Before taxes, the subtotal was $2.49",
+          "After taxes and fees were applied, the total comes out to $2.71"
+        ],
+        "productRows": [
+          {
+            "id": 1,
+            "name": "Rice Krispies",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/RKTsquares.jpg",
+            "source": "https://en.wikipedia.org/wiki/Rice_Krispies_Treats",
+            "description": "Delicious corn-based rice grains melted together with marshmallows into a square-like shape.",
+            "price": 0.99,
+            "quantity": 1,
+            "totalPrice": 0.99
+          },
+          {
+            "id": 2,
+            "name": "Flamin Hot Cheetos",
+            "category": "food",
+            "image": "https://static.openfoodfacts.org/images/products/896/400/009/0879/front_en.14.full.jpg",
+            "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+            "description": "No one knows what's in the powder that covers these snacks, but wow is it amazing!",
+            "price": 1.5,
+            "quantity": 1,
+            "totalPrice": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "6644b0a9-3b9d-477c-8a62-a0a991be8bf0",
+      "name": "A. Customer",
+      "email": "customer-email@gmail.com",
+      "total": 1.076625,
+      "receipt": {
+        "userInfo": {
+          "name": "A. Customer",
+          "email": "customer-email@gmail.com"
+        },
+        "lines": [
+          "Showing receipt for A. Customer available at customer-email@gmail.com:",
+          "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99.",
+          "Before taxes, the subtotal was $0.99",
+          "After taxes and fees were applied, the total comes out to $1.08"
+        ],
+        "productRows": [
+          {
+            "id": 1,
+            "name": "Rice Krispies",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/RKTsquares.jpg",
+            "source": "https://en.wikipedia.org/wiki/Rice_Krispies_Treats",
+            "description": "Delicious corn-based rice grains melted together with marshmallows into a square-like shape.",
+            "price": 0.99,
+            "quantity": 1,
+            "totalPrice": 0.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "28beb368-0945-4423-b479-a560c3271f27",
+      "name": "Phineas",
+      "email": "customer-email@gmail.com",
+      "total": 152.25,
+      "receipt": {
+        "userInfo": {
+          "name": "Phineas",
+          "email": "customer-email@gmail.com"
+        },
+        "lines": [
+          "Showing receipt for Phineas available at customer-email@gmail.com:",
+          "2 total Copper Bracelet purchased at a cost of $70.00 for a total cost of $140.00.",
+          "Before taxes, the subtotal was $140.00",
+          "After taxes and fees were applied, the total comes out to $152.25"
+        ],
+        "productRows": [
+          {
+            "id": 13,
+            "name": "Copper Bracelet",
+            "category": "accessories",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Copper_bracelet_04.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Copper_bracelet_04.jpg",
+            "description": "Compliment this accessory with a batter and some wire and you have yourself a portable charger right on your wrist!",
+            "price": 70,
+            "quantity": 2,
+            "totalPrice": 140
+          }
+        ]
+      }
+    },
+    {
+      "id": "4def8bbf-5dbc-4a9c-8c79-feeb53f77f86",
+      "name": "Phineas",
+      "email": "customer-email@gmail.com",
+      "total": 21.739124999999998,
+      "receipt": {
+        "userInfo": {
+          "name": "Phineas",
+          "email": "customer-email@gmail.com"
+        },
+        "lines": [
+          "Showing receipt for Phineas available at customer-email@gmail.com:",
+          "1 total Bar Code Shirts purchased at a cost of $19.99 for a total cost of $19.99.",
+          "Before taxes, the subtotal was $19.99",
+          "After taxes and fees were applied, the total comes out to $21.74"
+        ],
+        "productRows": [
+          {
+            "id": 6,
+            "name": "Bar Code Shirts",
+            "category": "clothing",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Barcode_wikipedia_shirt.svg",
+            "source": "https://commons.wikimedia.org/wiki/File:Barcode_wikipedia_shirt.svg",
+            "description": "So you can scan yourself in the checkout aisle.",
+            "price": 19.99,
+            "quantity": 1,
+            "totalPrice": 19.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "864c2fd4-a094-4f02-a8fc-8d21663cdff1",
+      "name": "Phineas",
+      "email": "customer-email@gmail.com",
+      "total": 8.15625,
+      "receipt": {
+        "userInfo": {
+          "name": "Phineas",
+          "email": "customer-email@gmail.com"
+        },
+        "lines": [
+          "Showing receipt for Phineas available at customer-email@gmail.com:",
+          "1 total Fruit Medley purchased at a cost of $7.50 for a total cost of $7.50.",
+          "Before taxes, the subtotal was $7.50",
+          "After taxes and fees were applied, the total comes out to $8.16"
+        ],
+        "productRows": [
+          {
+            "id": 5,
+            "name": "Fruit Medley",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Fruits.png",
+            "source": "https://commons.wikimedia.org/wiki/File:Fruits.png",
+            "description": "More fruit than you know what to do with!",
+            "price": 7.5,
+            "quantity": 1,
+            "totalPrice": 7.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "112ce2bf-01f7-4ec3-a938-7db5653d06f5",
+      "name": "A. Customer",
+      "email": "customer-email@gmail.com",
+      "total": 451.0406249999999,
+      "receipt": {
+        "userInfo": {
+          "name": "A. Customer",
+          "email": "customer-email@gmail.com"
+        },
+        "lines": [
+          "Showing receipt for A. Customer available at customer-email@gmail.com:",
+          "5 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $14.95.",
+          "20 total Bar Code Shirts purchased at a cost of $19.99 for a total cost of $399.80.",
+          "Before taxes, the subtotal was $414.75",
+          "After taxes and fees were applied, the total comes out to $451.04"
+        ],
+        "productRows": [
+          {
+            "id": 3,
+            "name": "Cinnamon Rolls",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+            "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+            "description": "Basically just cake for breakfast, but who's complaining?",
+            "price": 2.99,
+            "quantity": 5,
+            "totalPrice": 14.950000000000001
+          },
+          {
+            "id": 6,
+            "name": "Bar Code Shirts",
+            "category": "clothing",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Barcode_wikipedia_shirt.svg",
+            "source": "https://commons.wikimedia.org/wiki/File:Barcode_wikipedia_shirt.svg",
+            "description": "So you can scan yourself in the checkout aisle.",
+            "price": 19.99,
+            "quantity": 20,
+            "totalPrice": 399.79999999999995
+          }
+        ]
+      }
+    }
+  ]
 }
