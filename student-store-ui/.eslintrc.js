@@ -18,5 +18,8 @@ module.exports = {
     'react',
   ],
   rules: {
+    'react/prop-types': 0,
+    'no-console': 0,
+    'max-len': 0,
   },
 };
